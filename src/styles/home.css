@@ -1,0 +1,50 @@
+
+.row {
+    flex-wrap: nowrap;
+  }
+
+  .StarWarsLogo{
+    max-width: 100px;
+    
+  }
+
+  .marginPage{
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+
+  .marginSpecific{
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 50px;
+    
+  }
+
+  .marginNavbar{
+    margin-right: 100px;
+    margin-left: 100px;
+    
+    
+  }
+
+.carousel{
+  height: auto;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+
+.principalImage{
+  width: auto;
+  height: 300px;
+
+}
+
+.mainContainer{
+  background: RGB(29, 30, 31);
+  
+}
+
+.buttons-card{
+  justify-content: space-between;
+}
