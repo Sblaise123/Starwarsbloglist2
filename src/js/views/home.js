@@ -5,6 +5,7 @@ import { CardVehicle } from "../component/CardVehicle.jsx";
 import "../../styles/home.css";
 import { Context } from "../store/appContext";
 
+
 export const Home = () => {
   const { store, actions } = useContext(Context);
 

@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "../../styles/home.css";
 import { Context } from "../store/appContext";
 
+
+
 export const Navbar = () => {
   const { store, actions } = useContext(Context);
   return (
@@ -35,7 +37,7 @@ export const Navbar = () => {
                   className="btn-dropdown"
                   onClick={(e) => actions.getUpdateFavorite(favorite)}
                 >
-                  <FontAwesomeIcon icon={faTrash} />
+                  <i class="fa-solid fa-trash"></i>
                 </button>
               </li>
             ))
